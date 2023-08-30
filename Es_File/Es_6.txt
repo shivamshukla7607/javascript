@@ -1,0 +1,48 @@
+(1)Module  :-
+        A module in JavaScript is just a file containing related code. In JavaScript, we use the import and export
+         keywords to share and receive functionalities respectively across different modules
+
+(A) Export :- share to other file.
+          export const hello=()=>{ console.log("Hello)};
+          export const ahello=(name)=>{ console.log("Hello",name)};
+
+(B) Import :- Receiver another file.
+    import{hello,ahello} from "/ filename.js";
+    hello
+    ahello("Shivam");
+---------------------------------------------------------------------------------------------------------------------------------------------------
+(2)- Template
+
+(a) Template literal  :-  All veriable in string form.
+let f="Shivam"
+let l="shukla"
+console.log(`Hello my name is ${f},${l});
+
+(b) MultiLine String :-
+   let txt=`shivam,
+   shukla,
+   allahabad`;
+   console.log(txt);
+---------------------------------------------------------------------------------------------------------------------------------------------------
+(3)  Destructuring assignment :-
+                      Allow JavaScript to easily get content from arrays and objects.
+
+   var arr=["Apple","Mango","banana"];
+   var[frist, ,]=arr;     console.log(frist);             ----------- Apple
+var[frist,second ,]=arr;     console.log(frist);             ----------- Apple, Mango
+var[...arr]=arr;     console.log(arr);             ----------- Apple, Mango,banana
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+(4) Spread Operator :-
+                  Expand an array or object.
+
+var arr=["Apple","Mango","banana"];
+var arr1=["Shivam","Aman","Rahul"];
+var[...arr]=arr;     console.log(arr);                      ----------- Apple, Mango,banana
+var arr2=[...arr,...arr1];     console.log(arr2);             ----------- Apple, Mango,banana,Shivam,Aman,Rahul;
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+(5) Promise
+(6)Arrow Function
+

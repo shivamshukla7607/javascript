@@ -1,0 +1,22 @@
+There are three function on js...
+
+Annonimous function - The function without name is called Annonimous function.
+(a,b){  };
+
+Genral Function:- It is block that set of code which perform a particulor task is known as Function.
+
+Function f(a,b){    };
+
+Arrow Function :- An arrow function expression is a compact alternative to a traditional function expression,
+ with some semantic differences and deliberate limitations in usage
+
+ let myFunction = (a, b) => a * b;
+
+
+Function                                        Vs                                 Arrow Function
+1- Argument is avilable                                                       1- Argument is nt avilable
+function add(x,y){                                                             function add(x,y){                     
+     console.log(arguments);                                                   console.log(arguments);
+          return x+y;                                                                return x+y; 
+ }  add(5,4);                                                                     }  add(5,4);
+                                               

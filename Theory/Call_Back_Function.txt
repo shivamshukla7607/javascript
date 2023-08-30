@@ -1,0 +1,15 @@
+CallBack Function :- 
+
+A callback is a function passed as an argument to another function.
+
+function main(x,y,z , callback){
+    setTimeout(function(){
+        console.log("addition :-"+(x+y+z));
+        return callback();},1000)
+}
+function m(x,y){
+
+    console.log("Multiplication ;-"+x*y);
+}
+main(5,6,4, m(1,8))
+

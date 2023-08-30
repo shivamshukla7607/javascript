@@ -1,0 +1,17 @@
+Synchronous  (Single threaded)  :-
+
+ *It is Diffined before the function to make the function return the promise.
+* It is blocking of code the program excuted line of code(Line by line).
+Ex-   console.log("Name");
+      console.log("Shivam");
+      console.log("Shukla");   => ouput - Name Shivam Shukla;
+
+ Asynchronous :-
+
+ Non Blocking of code its excuted program -
+ Ex-   console.log("Name");
+     setTimeOut(() =>{ console.log("Shivam");},5000);
+      console.log("Shukla");   => ouput - Name  Shukla  Shivam;    
+
+
+

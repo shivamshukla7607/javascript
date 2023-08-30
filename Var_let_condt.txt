@@ -1,0 +1,19 @@
+Var - If declear the variable from var, then we can declear and reassign also
+
+var name="shivam";
+var name ="Shukla"
+
+
+
+Let - If declear the variable from let, the we can re assign but not declear.
+let name="Shivam";
+name="Shukla";
+
+const - If we deacler variable with const, we can not redclear and reassign;
+const name="shivam";
+
+
+Scops             Var           let          const
+Globle            Yes           No            No
+local             Yes            Yes          No
+Block             yes            ys          no

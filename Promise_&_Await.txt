@@ -1,0 +1,48 @@
+Promise :-
+* Promise ia s asynchronous(async) oprtion.
+*Promise.then() takes two arguments, a callback for success and another for failure. 
+Both are optional, so you can add a callback for success or failure only.
+
+there three state
+*Pending
+*Fullfill
+*Rejeceted
+
+let promise=new Promise(function(resolve,reject){  
+      const flag=true;
+        if(flag===true){
+        resolve()}
+        else{
+            reject(); }
+    })
+    promise.then((result)=>console.log("after resolving  - ", result))
+    .catch((Error) => console.log("After rejected-  " ,Error));
+
+
+
+
+
+Await :- 
+Awiat is a keyword which wait until the promise is resolved  or reject in can write only
+insie the async function.
+
+
+let promise=new Promise(function(correct,incorrect){
+    setTimeout(function(){
+        if(promise){
+        correct("You are correct way")}
+    },1000)
+    })
+    
+    function f(){
+        let a=promise;
+        console.log("You are the f function")
+    }
+    
+    async function f1(x,y){
+        let a=await promise;
+        console.log((x+y)+" "+a);
+//return a;
+    }
+   console.log(f())
+    console.log(f1(2,7))

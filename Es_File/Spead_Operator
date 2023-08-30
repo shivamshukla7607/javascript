@@ -1,0 +1,7 @@
+var arr=["Apple","Mango","banana"];
+var arr1=["Shivam","Aman","Rahul"];
+var[...arr]=arr;   
+  console.log(arr);                    
+var arr2=[...arr,...arr1];    
+ console.log(arr2);      
+ arr.includes("Apple")       

@@ -1,0 +1,18 @@
+(1) Includes :- 
+              Check the list and return boolean value.
+
+var arr=["Apple", "Mango", "banana"];
+console.log(arr.include("Apple"))  --------------True
+console.log(arr.include("Apple",0))  --------------True
+console.log(arr.include("banana",2))  --------------fales
+console.log(arr.include("Orange"))  --------------fales
+
+
+(2) Index Operator :-
+                  Check the list by index and return boolean value.
+
+var arr=["Apple", "Mango", "banana"];
+console.log(arr.indexOf("Apple"))  --------------True
+console.log(arr.indexOf("Apple",0))  --------------True
+console.log(arr.indexOf("banana",2))  --------------fales
+console.log(arr.indexOf("Orange"))  --------------fales
